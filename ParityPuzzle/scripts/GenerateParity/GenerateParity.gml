@@ -1,3 +1,4 @@
+//convert all of the arguments for ease
 var rowOrColumn = argument[0];
 var number = argument[1];
 var numLoops = argument[2];
