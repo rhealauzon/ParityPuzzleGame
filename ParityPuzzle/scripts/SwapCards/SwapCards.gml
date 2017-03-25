@@ -27,7 +27,3 @@ card1.selected = false;
 card2.selected = false;
 objLevelController.selectedCard = noone;
 
-//decrement the number of swaps because we've swapped a card!
-objLevelController.numSwapsRemaining--;
-
-objLevelController.swapMade = true;

@@ -23,7 +23,16 @@ if (hover && mouse_check_button_pressed(mb_left))
 			}
 			else
 			{
+				//add this move to the array of moves
+				objLevelController.playerMoves[objLevelController.numSwapsRemaining, 0] = objLevelController.selectedCard;
+				objLevelController.playerMoves[objLevelController.numSwapsRemaining, 1] = id;
+				
 				SwapCards(objLevelController.selectedCard, id);
+				
+				//decrement the number of swaps because we've swapped a card!
+				objLevelController.numSwapsRemaining--;
+				//setting this to true causes the parity to be re-checked
+				objLevelController.swapMade = true;
 			}
 		}
 	}

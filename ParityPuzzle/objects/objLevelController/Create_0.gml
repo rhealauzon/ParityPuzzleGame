@@ -16,10 +16,14 @@ parityCardsRow[0] = noone;
 parityCardsColumn[0] = noone;
 numRows = -1;
 numColumns = -1;
+
+//keeps track of player's actions and swapping events
 numSwaps = -1;
 numSwapsRemaining = -1;
 swapMade = true;
 levelComplete = false;
+playerMoves[0, 0] = noone;
+levelEndTimer = 120;
 
 //keeps track of player's moves
 selectedCard = noone;

@@ -45,3 +45,11 @@ if (swapMade)
 	swapMade = false;
 }
 
+//tick down the timer or transition back to the level screen
+if (levelComplete)
+{
+	if (levelEndTimer > 0)
+		levelEndTimer--;
+	else
+		room_goto(rmLevelSelect);
+}
