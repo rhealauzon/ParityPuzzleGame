@@ -51,5 +51,5 @@ if (levelComplete)
 	if (levelEndTimer > 0)
 		levelEndTimer--;
 	else
-		room_goto(rmLevelSelect);
+		completeLevel(levelNum);
 }

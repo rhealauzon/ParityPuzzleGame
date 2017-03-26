@@ -1,2 +1,2 @@
-//set the level number for this button. This is the level it will load
-levelNum = 10;
+//setup the button
+setupLevelSelectButton(id, 10);
