@@ -1,2 +1,2 @@
 //turn this button into the resume button
-type = MenuButtonType.RESUME;
+type = MenuButtonType.TUTORIAL;

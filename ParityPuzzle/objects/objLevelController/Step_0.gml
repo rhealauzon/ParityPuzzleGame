@@ -51,5 +51,10 @@ if (levelComplete)
 	if (levelEndTimer > 0)
 		levelEndTimer--;
 	else
-		completeLevel(levelNum);
+	{
+		if (levelNum > 0)
+			completeLevel(levelNum);
+		else
+			room_goto(rmMainMenu);
+	}
 }

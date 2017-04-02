@@ -8,6 +8,11 @@ if (hover && mouse_check_button_pressed(mb_left))
 {
 	switch (type)
 	{
+		case MenuButtonType.TUTORIAL:
+			global.activeLevel = 0;
+			room_goto(rmLevel);
+		break;
+		
 		case MenuButtonType.LEVEL_SELECT:
 			room_goto(rmLevelSelect);
 		break;

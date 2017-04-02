@@ -18,8 +18,8 @@ draw_set_halign(fa_center);
 var text = "";
 switch (type)
 {
-	case MenuButtonType.RESUME:
-		text = "Resume";
+	case MenuButtonType.TUTORIAL:
+		text = "Tutorial";
 		break;
 		
 	case MenuButtonType.LEVEL_SELECT:

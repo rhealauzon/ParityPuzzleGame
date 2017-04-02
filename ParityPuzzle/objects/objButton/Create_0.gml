@@ -1,7 +1,7 @@
 //enum for all of the different types of buttons
 enum MenuButtonType
 {
-	RESUME,
+	TUTORIAL,
 	LEVEL_SELECT,
 	SETTINGS,
 	QUIT
@@ -11,7 +11,7 @@ enum MenuButtonType
 
 
 // VARIABLES //
-type = MenuButtonType.RESUME;
+type = MenuButtonType.TUTORIAL;
 hover = false;
 
 
