@@ -9,6 +9,7 @@ RAISE_OFFSET = -20;
 // VARIABLES //
 cardValue = -1;
 selected = false;
+disabled = false;
 
 target_raise = 0;
 target_X = -1;

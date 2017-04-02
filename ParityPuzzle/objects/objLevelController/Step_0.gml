@@ -58,3 +58,11 @@ if (levelComplete)
 			room_goto(rmMainMenu);
 	}
 }
+else
+{
+	//disable all of the cards if there is no more swaps remaining
+	if (numSwapsRemaining == 0)
+	{
+		swapCardDisabledState(cards, true);
+	}
+}

@@ -4,6 +4,10 @@ var numSwapsRemaining = objLevelController.numSwapsRemaining;
 //only undo if a player has taken a move
 if (numSwapsRemaining < objLevelController.numSwaps && !objLevelController.levelComplete)
 {
+	//re-enable all of the cards first
+	if (numSwapsRemaining == 0)
+		swapCardDisabledState(objLevelController.cards, false);
+		
 	var card1 = objLevelController.playerMoves[numSwapsRemaining + 1, 0];
 	var card2 = objLevelController.playerMoves[numSwapsRemaining + 1, 1];
 
@@ -14,3 +18,5 @@ if (numSwapsRemaining < objLevelController.numSwaps && !objLevelController.level
 	objLevelController.numSwapsRemaining++;
 	objLevelController.swapMade = true;
 } 
+
+

@@ -27,3 +27,9 @@ card1.selected = false;
 card2.selected = false;
 objLevelController.selectedCard = noone;
 
+//check if we are in the tutorial
+if (global.activeLevel == 0)
+{
+	if (global.tutorialStep == 1)
+		global.tutorialStep++;
+}

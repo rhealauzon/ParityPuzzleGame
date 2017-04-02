@@ -6,6 +6,7 @@ else
 {
 	global.activeLevel = -1;
 	global.NUM_LEVELS = 12;
+	global.tutorialStep = 0;
 	global.levels[0] = false;
 	
 	var i;

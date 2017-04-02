@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "6e59fb62-66bf-4cc3-813e-148bdcaa8f30",
+            "Value": {
+                "id": "92db6833-60d0-45a1-a249-1c5194115b63",
+                "resourcePath": "scripts\\swapCardDisabledState\\swapCardDisabledState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6ed5d839-5b91-48b9-abbb-8e8f2b161192",
             "Value": {
                 "id": "d2da3d40-f548-42e5-b500-2b50d505365c",
@@ -555,7 +563,8 @@
         "998d6dea-5a28-4e2f-a86b-01b2a866bbbe",
         "d565c81d-92e5-41bb-8a99-9222615cb76d",
         "7b863946-d122-40bc-bc78-df87507e6652",
-        "30532a1c-221c-4646-8a73-df5d981c18d7"
+        "30532a1c-221c-4646-8a73-df5d981c18d7",
+        "6e59fb62-66bf-4cc3-813e-148bdcaa8f30"
     ],
     "tutorial": ""
 }

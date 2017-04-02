@@ -2,37 +2,49 @@
 hover = Hover();
 
 //check for clicks
-if (hover && mouse_check_button_pressed(mb_left))
+if (!disabled)
 {
-	//if this card is already selected, then we want to unselect it
-	if (selected)
+	if (hover && mouse_check_button_pressed(mb_left))
 	{
-		selected = false;
-		objLevelController.selectedCard = noone;
-	}
-	//otherwise set this card to be selected
-	else
-	{
-		//only swap if there is remaining moves to make
-		if (objLevelController.numSwapsRemaining > 0)
+		//check if we are in the tutorial for various events
+		if (global.activeLevel == 0)
 		{
-			selected = true;
-			if (objLevelController.selectedCard == noone)
+			if (global.tutorialStep == 0)
 			{
-				objLevelController.selectedCard = id;
+				global.tutorialStep++;
 			}
-			else
+		}
+		
+		//if this card is already selected, then we want to unselect it
+		if (selected)
+		{
+			selected = false;
+			objLevelController.selectedCard = noone;
+		}
+		//otherwise set this card to be selected
+		else
+		{
+			//only swap if there is remaining moves to make
+			if (objLevelController.numSwapsRemaining > 0)
 			{
-				//add this move to the array of moves
-				objLevelController.playerMoves[objLevelController.numSwapsRemaining, 0] = objLevelController.selectedCard;
-				objLevelController.playerMoves[objLevelController.numSwapsRemaining, 1] = id;
+				selected = true;
+				if (objLevelController.selectedCard == noone)
+				{
+					objLevelController.selectedCard = id;
+				}
+				else
+				{
+					//add this move to the array of moves
+					objLevelController.playerMoves[objLevelController.numSwapsRemaining, 0] = objLevelController.selectedCard;
+					objLevelController.playerMoves[objLevelController.numSwapsRemaining, 1] = id;
 				
-				SwapCards(objLevelController.selectedCard, id);
+					SwapCards(objLevelController.selectedCard, id);
 				
-				//decrement the number of swaps because we've swapped a card!
-				objLevelController.numSwapsRemaining--;
-				//setting this to true causes the parity to be re-checked
-				objLevelController.swapMade = true;
+					//decrement the number of swaps because we've swapped a card!
+					objLevelController.numSwapsRemaining--;
+					//setting this to true causes the parity to be re-checked
+					objLevelController.swapMade = true;
+				}
 			}
 		}
 	}
