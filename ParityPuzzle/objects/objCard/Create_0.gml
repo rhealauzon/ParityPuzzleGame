@@ -17,3 +17,7 @@ target_Y = -1;
 
 cardArray_R = -1;
 cardArray_C = -1;
+
+
+//register the card with the sound controller
+gmwRegisterObject(id, global.DEFAULT_GROUP, "Card");

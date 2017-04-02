@@ -24,6 +24,9 @@ if (!disabled)
 		//otherwise set this card to be selected
 		else
 		{
+			//post the sound for clicking!
+			gmwPostEvent(global.WWE_CARD_SELECT, id);
+			
 			//only swap if there is remaining moves to make
 			if (objLevelController.numSwapsRemaining > 0)
 			{

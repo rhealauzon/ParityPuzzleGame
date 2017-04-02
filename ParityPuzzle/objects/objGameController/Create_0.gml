@@ -7,6 +7,7 @@ else
 	global.activeLevel = -1;
 	global.NUM_LEVELS = 12;
 	global.tutorialStep = 0;
+	global.musicOn = true;
 	global.levels[0] = false;
 	
 	var i;
@@ -20,6 +21,9 @@ else
 	//otherwise load one
 	else
 		loadGame();
-	
+
+
+	//create the sound controller
+	instance_create_depth(0, 0, 0, objSoundController);	
 }
 

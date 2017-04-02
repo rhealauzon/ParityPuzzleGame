@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DB1FCDDD-AF8A-4D53-AE71-955A296DA67B}" SchemaVersion="75">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{DB1FCDDD-AF8A-4D53-AE71-955A296DA67B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Card_Select" ID="{C6A0175F-2A46-4F62-9559-1CDBD87C3C42}">
+					<ChildrenList>
+						<Action Name="Play" ID="{45E63778-8B69-4321-9695-0F392C5F9FB7}" ShortID="854639100" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{25462909-E577-44B6-975D-41839FF43E38}" Global="false">
+									<ObjectRef Name="alert" ID="{206D8338-E45A-48D0-B0D7-C5521398ED6E}" WorkUnitID="{94E5BB5B-2BD7-4F0F-A9E2-E3B76A1A1168}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

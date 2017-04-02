@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
+	<RootPaths>
+		<ProjectRoot>C:\Users\kayas\Desktop\ParityPuzzle\Assets\Sound\PartiyPuzzle\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\kayas\Desktop\ParityPuzzle\Assets\Sound\PartiyPuzzle\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\kayas\Desktop\ParityPuzzle\Assets\Sound\PartiyPuzzle\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\kayas\Desktop\ParityPuzzle\Assets\Sound\PartiyPuzzle\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3852204823" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Bank_All</ObjectPath>
+			<ShortName>Bank_All</ShortName>
+			<Path>Bank_All.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1259932846" Name="Card_Select" ObjectPath="\Events\Default Work Unit\Card_Select"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="657917255" Language="SFX">
+					<ShortName>ping_alert.wav</ShortName>
+					<Path>SFX\ping_alert_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

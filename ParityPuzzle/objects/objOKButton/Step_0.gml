@@ -7,7 +7,7 @@ if (Hover() && mouse_check_button_pressed(mb_left))
 	
 	if (global.activeLevel == 0)
 	{
-		if (global.tutorialStep == 2)
+		if (global.tutorialStep == 2 || global.tutorialStep == 3)
 		{
 			global.tutorialStep++;
 		}

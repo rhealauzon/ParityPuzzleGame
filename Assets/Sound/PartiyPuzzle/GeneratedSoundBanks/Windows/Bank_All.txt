@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1259932846	Card_Select			\Default Work Unit\Card_Select	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2415836739	Volume			\Default Work Unit\Volume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	657917255	alert	C:\Users\kayas\Desktop\ParityPuzzle\Assets\Sound\PartiyPuzzle\.cache\Windows\SFX\ping_alert_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\alert		284212
+

@@ -1,5 +1,5 @@
 step = 0;
-tutorialBox = instance_create_depth(room_width / 2, room_height / 2, -1, objTutorialBox); 
+tutorialBox = instance_create_depth(room_width * 3/4 + 120, room_height  * 3/4 - 20, 0, objTutorialBox); 
 
 //disable all of the cards
 swapCardDisabledState(objLevelController.cards, true);

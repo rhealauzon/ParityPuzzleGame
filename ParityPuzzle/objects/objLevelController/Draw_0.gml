@@ -3,7 +3,7 @@ draw_set_font(fntMain);
 draw_set_valign(fa_center);
 draw_set_halign(fa_center);
 
-draw_text(640, 120, "Number of Swaps Remaining:" + string(numSwapsRemaining));
+draw_text(640, 40, "Number of Swaps Remaining:" + string(numSwapsRemaining));
 
 if (levelComplete)
 {
