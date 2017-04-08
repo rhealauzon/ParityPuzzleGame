@@ -14,6 +14,7 @@ else
 draw_set_font(fntMain);
 draw_set_valign(fa_center);
 draw_set_halign(fa_center);
+draw_set_color(make_color_rgb(70, 149, 176));
 
 var text = "";
 switch (type)

@@ -31,7 +31,7 @@
             "modelName": "GMRInstanceLayer",
             "mvc": "1.0",
             "depth": 0,
-            "grid_x": 640,
+            "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
@@ -57,8 +57,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_564955C3",
-                    "x": 401,
-                    "y": 246,
+                    "x": 382,
+                    "y": 318,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -81,8 +81,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_7697AC8F",
-                    "x": 561,
-                    "y": 246,
+                    "x": 542,
+                    "y": 318,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -105,8 +105,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_61186AD6",
-                    "x": 721,
-                    "y": 246,
+                    "x": 702,
+                    "y": 318,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -129,8 +129,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_759CC385",
-                    "x": 881,
-                    "y": 246,
+                    "x": 862,
+                    "y": 318,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -153,8 +153,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_5E4DD036",
-                    "x": 401,
-                    "y": 406,
+                    "x": 382,
+                    "y": 478,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -177,8 +177,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_3FC7B408",
-                    "x": 561,
-                    "y": 406,
+                    "x": 542,
+                    "y": 478,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -201,8 +201,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_2FDC6F52",
-                    "x": 721,
-                    "y": 406,
+                    "x": 702,
+                    "y": 478,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -225,8 +225,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_7DF45375",
-                    "x": 881,
-                    "y": 406,
+                    "x": 862,
+                    "y": 478,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -249,8 +249,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_2B21C5BF",
-                    "x": 401,
-                    "y": 566,
+                    "x": 382,
+                    "y": 638,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -273,8 +273,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_180B5765",
-                    "x": 561,
-                    "y": 566,
+                    "x": 542,
+                    "y": 638,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -297,8 +297,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_7C5A69E",
-                    "x": 721,
-                    "y": 566,
+                    "x": 702,
+                    "y": 638,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -321,8 +321,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_18AB0A26",
-                    "x": 881,
-                    "y": 566,
+                    "x": 862,
+                    "y": 638,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -369,8 +369,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_4708C486",
-                    "x": 78,
-                    "y": 46,
+                    "x": 64,
+                    "y": 64,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -411,7 +411,7 @@
             "animationFPS": 15,
             "animationSpeedType": 0,
             "colour": {
-                "Value": 4283380507
+                "Value": 4290949011
             },
             "hspeed": 0,
             "htiled": false,
@@ -439,7 +439,7 @@
         "id": "6efc1e58-9c68-407a-9763-f6148628efa1",
         "modelName": "GMRoomSettings",
         "mvc": "1.0",
-        "Height": 720,
+        "Height": 900,
         "Width": 1280,
         "inheritRoomSettings": false,
         "persistent": false

@@ -7,7 +7,7 @@ draw_sprite(sprTutorialBox, 0, x, y);
 
 //draw the text on the box
 draw_set_font(fntTutorial);
-draw_set_color(c_blue);
+draw_set_color(make_color_rgb(70, 149, 176));
 draw_set_valign(fa_center);
 draw_set_halign(fa_center);
 

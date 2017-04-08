@@ -50,7 +50,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_35D59737",
                     "x": 640,
-                    "y": 256,
+                    "y": 352,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -74,7 +74,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_6B8B57A6",
                     "x": 640,
-                    "y": 384,
+                    "y": 512,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -98,7 +98,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_340BF0DC",
                     "x": 640,
-                    "y": 512,
+                    "y": 672,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -211,7 +211,7 @@
             "animationFPS": 15,
             "animationSpeedType": 0,
             "colour": {
-                "Value": 4283380507
+                "Value": 4290949011
             },
             "hspeed": 0,
             "htiled": false,
@@ -239,7 +239,7 @@
         "id": "ab69a97e-45d1-43dd-8a07-702320a24852",
         "modelName": "GMRoomSettings",
         "mvc": "1.0",
-        "Height": 720,
+        "Height": 900,
         "Width": 1280,
         "inheritRoomSettings": false,
         "persistent": false

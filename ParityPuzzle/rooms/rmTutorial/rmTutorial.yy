@@ -136,7 +136,7 @@
             "animationFPS": 15,
             "animationSpeedType": 0,
             "colour": {
-                "Value": 4283380507
+                "Value": 4290949011
             },
             "hspeed": 0,
             "htiled": false,
@@ -164,7 +164,7 @@
         "id": "a5873014-78b9-4600-9966-0a83ed8227b1",
         "modelName": "GMRoomSettings",
         "mvc": "1.0",
-        "Height": 720,
+        "Height": 900,
         "Width": 1280,
         "inheritRoomSettings": false,
         "persistent": false
