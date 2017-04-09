@@ -3,6 +3,9 @@
 
 if (Hover() && mouse_check_button_pressed(mb_left))
 {
+	//play a noise
+	gmwPostEvent(global.WWE_BUTTON_PRESSED, id);
+	
 	//enter fullscreen or come out of fullscreen
 	if window_get_fullscreen()
 	{

@@ -9,10 +9,10 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
+        "4de7c293-cb10-48bc-99eb-806d40e6f724",
         "80809ca4-4240-42e3-8ed0-220fd624739a",
         "bb467d54-0a31-4d78-b239-60c10186b142",
         "e62f1139-9f06-4752-b934-f327a19d8537",
-        "4de7c293-cb10-48bc-99eb-806d40e6f724",
         "67217e57-83cd-423f-9b1e-ca3681122874",
         "7283b81a-27b9-41a4-8fd4-338442c34d4c"
     ],
@@ -145,8 +145,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_2306D60D",
-                    "x": 1115,
-                    "y": 60,
+                    "x": 1088,
+                    "y": 64,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -157,8 +157,8 @@
                     "name_with_no_file_rename": "inst_2306D60D",
                     "objId": "6828c549-e374-469a-981f-fd391a7a3152",
                     "rotation": 0,
-                    "scaleX": 0.25,
-                    "scaleY": 0.25
+                    "scaleX": 1,
+                    "scaleY": 1
                 },
                 {
                     "id": "7283b81a-27b9-41a4-8fd4-338442c34d4c",

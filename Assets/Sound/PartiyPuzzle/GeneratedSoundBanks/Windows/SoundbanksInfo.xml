@@ -21,12 +21,22 @@
 			<ShortName>Bank_All</ShortName>
 			<Path>Bank_All.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1259932846" Name="Card_Select" ObjectPath="\Events\Default Work Unit\Card_Select"/>
+				<Event Id="1250089922" Name="Button_Pressed" ObjectPath="\Events\Default Work Unit\Button_Pressed"/>
+				<Event Id="4294112903" Name="Card_Swap" ObjectPath="\Events\Default Work Unit\Card_Swap"/>
+				<Event Id="3736098925" Name="Level_Complete" ObjectPath="\Events\Default Work Unit\Level_Complete"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="657917255" Language="SFX">
-					<ShortName>ping_alert.wav</ShortName>
-					<Path>SFX\ping_alert_9E69E797.wem</Path>
+				<File Id="568408287" Language="SFX">
+					<ShortName>success.wav</ShortName>
+					<Path>SFX\success_9E69E797.wem</Path>
+				</File>
+				<File Id="988759654" Language="SFX">
+					<ShortName>pop.wav</ShortName>
+					<Path>SFX\pop_9E69E797.wem</Path>
+				</File>
+				<File Id="998634548" Language="SFX">
+					<ShortName>card_flip.wav</ShortName>
+					<Path>SFX\card_flip_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

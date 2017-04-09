@@ -24,8 +24,6 @@ if (!disabled)
 		//otherwise set this card to be selected
 		else
 		{
-			//post the sound for clicking!
-			gmwPostEvent(global.WWE_CARD_SELECT, id);
 			
 			//only swap if there is remaining moves to make
 			if (objLevelController.numSwapsRemaining > 0)
@@ -37,6 +35,9 @@ if (!disabled)
 				}
 				else
 				{
+					//post the sound for swapping cards
+					gmwPostEvent(global.WWE_CARD_SWAP, id);
+					
 					//add this move to the array of moves
 					objLevelController.playerMoves[objLevelController.numSwapsRemaining, 0] = objLevelController.selectedCard;
 					objLevelController.playerMoves[objLevelController.numSwapsRemaining, 1] = id;

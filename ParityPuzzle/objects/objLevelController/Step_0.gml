@@ -39,6 +39,7 @@ if (swapMade)
 	if (levelWon)
 	{
 		levelComplete = true;
+		gmwPostEvent(global.WWE_LEVEL_COMPLETE, id);
 	}
 	
 	

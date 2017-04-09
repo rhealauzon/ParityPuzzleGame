@@ -14,6 +14,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Button_Pressed" ID="{14C5D5C0-0C63-4828-9333-FB06C6A7A62D}">
+					<ChildrenList>
+						<Action Name="Play" ID="{ADBE3EC7-6899-4511-B73D-A1F888845784}" ShortID="427792428" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{1F3A21E1-DF93-4066-802F-B72DD0C3983B}" Global="false">
+									<ObjectRef Name="buttonPressed" ID="{EA0AFCE9-7024-492E-BDA9-BA0D378F7FA9}" WorkUnitID="{94E5BB5B-2BD7-4F0F-A9E2-E3B76A1A1168}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Card_Swap" ID="{7E51D585-3BFC-4EF5-A37F-06A4D860C513}">
+					<ChildrenList>
+						<Action Name="Play" ID="{379B11BC-985F-409C-8BB2-5A579E9838CE}" ShortID="33873983" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{89341D5F-0B10-4CE5-A1E6-A8CFEE8ED4E3}" Global="false">
+									<ObjectRef Name="cardSwapped" ID="{7307EB5F-CFDF-4C43-A280-A96F91147071}" WorkUnitID="{94E5BB5B-2BD7-4F0F-A9E2-E3B76A1A1168}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Level_Complete" ID="{5FD24074-AB03-42A2-AA7A-5F83680DE449}">
+					<ChildrenList>
+						<Action Name="Play" ID="{52707D76-77EE-4586-95EF-E31A2A47B17C}" ShortID="652255984" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{42F10535-D4D7-4675-A573-E46DA032FB6C}" Global="false">
+									<ObjectRef Name="levelComplete" ID="{3EC82ACE-62F9-4150-B231-896B6C1CA1B6}" WorkUnitID="{94E5BB5B-2BD7-4F0F-A9E2-E3B76A1A1168}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

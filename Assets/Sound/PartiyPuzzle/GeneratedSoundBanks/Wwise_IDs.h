@@ -13,7 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID CARD_SELECT = 1259932846U;
+        static const AkUniqueID BUTTON_PRESSED = 1250089922U;
+        static const AkUniqueID CARD_SWAP = 4294112903U;
+        static const AkUniqueID LEVEL_COMPLETE = 3736098925U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS

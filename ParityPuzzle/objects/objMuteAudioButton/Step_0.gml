@@ -1,8 +1,8 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 if (Hover() && mouse_check_button_pressed(mb_left))
 {	
+	//play a noise
+	gmwPostEvent(global.WWE_BUTTON_PRESSED, id);
+	
 	global.musicOn = !global.musicOn;
 	
 	if (global.musicOn)

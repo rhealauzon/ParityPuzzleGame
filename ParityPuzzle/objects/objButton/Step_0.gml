@@ -6,6 +6,9 @@ hover = Hover();
 //check for left clicks on the button
 if (hover && mouse_check_button_pressed(mb_left))
 {
+	//play a noise
+	gmwPostEvent(global.WWE_BUTTON_PRESSED, id);
+	
 	switch (type)
 	{
 		case MenuButtonType.TUTORIAL:

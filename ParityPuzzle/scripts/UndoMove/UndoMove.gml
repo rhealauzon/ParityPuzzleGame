@@ -11,6 +11,9 @@ if (numSwapsRemaining < objLevelController.numSwaps && !objLevelController.level
 	var card1 = objLevelController.playerMoves[numSwapsRemaining + 1, 0];
 	var card2 = objLevelController.playerMoves[numSwapsRemaining + 1, 1];
 
+	//post the sound for swapping cards
+	gmwPostEvent(global.WWE_CARD_SWAP, card1);
+	
 	//re-swap these cards
 	SwapCards(card1, card2);
 
