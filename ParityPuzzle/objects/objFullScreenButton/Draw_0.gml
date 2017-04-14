@@ -1,0 +1,1 @@
+draw_sprite(sprFullScreen, isFullscreen, x, y);

@@ -9,10 +9,12 @@ if (Hover() && mouse_check_button_pressed(mb_left))
 	//enter fullscreen or come out of fullscreen
 	if window_get_fullscreen()
 	{
+		isFullscreen = false;
 		window_set_fullscreen(false);
 	}
 	else
 	{
+		isFullscreen = true;
 		window_set_fullscreen(true);
 	}
 }
