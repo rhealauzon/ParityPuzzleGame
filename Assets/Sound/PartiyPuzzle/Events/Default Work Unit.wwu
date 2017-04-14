@@ -8,7 +8,7 @@
 						<Action Name="Play" ID="{45E63778-8B69-4321-9695-0F392C5F9FB7}" ShortID="854639100" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{25462909-E577-44B6-975D-41839FF43E38}" Global="false">
-									<ObjectRef Name="alert" ID="{206D8338-E45A-48D0-B0D7-C5521398ED6E}" WorkUnitID="{94E5BB5B-2BD7-4F0F-A9E2-E3B76A1A1168}"/>
+									<ObjectRef Name="cardSelected" ID="{1FD6187D-DB98-473F-8DB0-16AF7075DBDD}" WorkUnitID="{94E5BB5B-2BD7-4F0F-A9E2-E3B76A1A1168}"/>
 								</Element>
 							</ElementList>
 						</Action>
@@ -42,6 +42,17 @@
 							<ElementList>
 								<Element ID="{42F10535-D4D7-4675-A573-E46DA032FB6C}" Global="false">
 									<ObjectRef Name="levelComplete" ID="{3EC82ACE-62F9-4150-B231-896B6C1CA1B6}" WorkUnitID="{94E5BB5B-2BD7-4F0F-A9E2-E3B76A1A1168}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Error" ID="{46270002-0ABD-4E86-9B33-88B329C235A1}">
+					<ChildrenList>
+						<Action Name="Play" ID="{F372E14A-0027-48FB-B296-29ACF5BE0AF6}" ShortID="983352170" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F25ABF02-0E99-46A8-8768-154FEF194E05}" Global="false">
+									<ObjectRef Name="error" ID="{95BAC5EA-270E-415D-954E-E1165E9E29F8}" WorkUnitID="{94E5BB5B-2BD7-4F0F-A9E2-E3B76A1A1168}"/>
 								</Element>
 							</ElementList>
 						</Action>

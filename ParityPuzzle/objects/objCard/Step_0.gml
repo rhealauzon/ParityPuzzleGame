@@ -18,6 +18,9 @@ if (!disabled)
 		//if this card is already selected, then we want to unselect it
 		if (selected)
 		{
+			//post the sound for selecting cards
+			gmwPostEvent(global.WWE_CARD_SELECT, id);
+					
 			selected = false;
 			objLevelController.selectedCard = noone;
 		}
@@ -31,6 +34,8 @@ if (!disabled)
 				selected = true;
 				if (objLevelController.selectedCard == noone)
 				{
+					//post the sound for selecting cards
+					gmwPostEvent(global.WWE_CARD_SELECT, id);
 					objLevelController.selectedCard = id;
 				}
 				else
@@ -51,6 +56,15 @@ if (!disabled)
 				}
 			}
 		}
+	}
+}
+//card is disabled but player still tries to click
+else
+{
+	if (hover && mouse_check_button_pressed(mb_left))
+	{
+		//post the sound for am error
+		gmwPostEvent(global.WWE_ERROR, id);
 	}
 }
 

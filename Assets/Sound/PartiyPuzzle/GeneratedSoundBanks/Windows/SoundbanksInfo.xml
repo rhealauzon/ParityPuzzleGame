@@ -22,10 +22,20 @@
 			<Path>Bank_All.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1250089922" Name="Button_Pressed" ObjectPath="\Events\Default Work Unit\Button_Pressed"/>
+				<Event Id="1259932846" Name="Card_Select" ObjectPath="\Events\Default Work Unit\Card_Select"/>
 				<Event Id="4294112903" Name="Card_Swap" ObjectPath="\Events\Default Work Unit\Card_Swap"/>
+				<Event Id="1880695829" Name="Error" ObjectPath="\Events\Default Work Unit\Error"/>
 				<Event Id="3736098925" Name="Level_Complete" ObjectPath="\Events\Default Work Unit\Level_Complete"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="326781757" Language="SFX">
+					<ShortName>error.wav</ShortName>
+					<Path>SFX\error_9E69E797.wem</Path>
+				</File>
+				<File Id="328022501" Language="SFX">
+					<ShortName>shutter.wav</ShortName>
+					<Path>SFX\shutter_9E69E797.wem</Path>
+				</File>
 				<File Id="568408287" Language="SFX">
 					<ShortName>success.wav</ShortName>
 					<Path>SFX\success_9E69E797.wem</Path>

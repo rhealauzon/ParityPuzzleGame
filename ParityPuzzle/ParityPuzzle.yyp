@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "04edb6d2-9744-4892-9cf9-2c656efba236",
+            "Value": {
+                "id": "7b0bd2e7-fba2-4861-9c12-018b363a397a",
+                "resourcePath": "datafiles_yy\\Sound\\Bank_All.bnk.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "08386b09-f78a-4ac6-a50c-3c34d3939c59",
             "Value": {
                 "id": "32ec28bc-dda2-4a0a-9f2b-325d8bec9266",
@@ -247,14 +255,6 @@
             }
         },
         {
-            "Key": "4b923b7b-6fef-4129-b28c-b5fc933f6123",
-            "Value": {
-                "id": "8e4b22b8-41fd-4561-8010-b710de5f91b1",
-                "resourcePath": "datafiles_yy\\Sound\\Bank_All.bnk.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "4e894546-dd36-4d83-b1e7-78f983f6ea29",
             "Value": {
                 "id": "935fd297-2507-421c-abad-ae82c022a5a9",
@@ -300,14 +300,6 @@
                 "id": "85f2da3a-f161-4845-9731-1ec6a8b29d77",
                 "resourcePath": "objects\\objFullScreenButton\\objFullScreenButton.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "6840cf9d-63ad-4648-94f1-fcfb62170d9a",
-            "Value": {
-                "id": "a09e5c88-8416-49c7-beb7-87b46539f7ed",
-                "resourcePath": "datafiles_yy\\Sound\\Init.bnk.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -651,6 +643,14 @@
             "Value": {
                 "id": "98510895-85f5-43d0-8ff8-22c4f0ce8232",
                 "resourcePath": "datafiles_yy\\LevelData\\level_3.txt.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "e4992698-6089-4973-8122-21e0b79f87d4",
+            "Value": {
+                "id": "2c9b1122-00ce-4ecd-b9d9-db3510d650af",
+                "resourcePath": "datafiles_yy\\Sound\\Init.bnk.yy",
                 "resourceType": "GMIncludedFile"
             }
         },

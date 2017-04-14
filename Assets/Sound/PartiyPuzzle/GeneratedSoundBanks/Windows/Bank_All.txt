@@ -1,5 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1250089922	Button_Pressed			\Default Work Unit\Button_Pressed	
+	1259932846	Card_Select			\Default Work Unit\Card_Select	
+	1880695829	Error			\Default Work Unit\Error	
 	3736098925	Level_Complete			\Default Work Unit\Level_Complete	
 	4294112903	Card_Swap			\Default Work Unit\Card_Swap	
 
@@ -11,6 +13,8 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	326781757	error	C:\Users\kayas\Desktop\ParityPuzzle\Assets\Sound\PartiyPuzzle\.cache\Windows\SFX\error_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\error		252032
+	328022501	cardSelected	C:\Users\kayas\Desktop\ParityPuzzle\Assets\Sound\PartiyPuzzle\.cache\Windows\SFX\shutter_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\cardSelected		192272
 	568408287	levelComplete	C:\Users\kayas\Desktop\ParityPuzzle\Assets\Sound\PartiyPuzzle\.cache\Windows\SFX\success_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\levelComplete		335304
 	988759654	buttonPressed	C:\Users\kayas\Desktop\ParityPuzzle\Assets\Sound\PartiyPuzzle\.cache\Windows\SFX\pop_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\buttonPressed		183408
 	998634548	cardSwapped	C:\Users\kayas\Desktop\ParityPuzzle\Assets\Sound\PartiyPuzzle\.cache\Windows\SFX\card_flip_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\cardSwapped		257728
